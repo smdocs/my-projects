@@ -16,3 +16,4 @@
 12. [The Definitive Antlr-4 Reference](https://it-ebooks24.com/ebook/the-definitive-antlr-4-reference)
 13. [StringTemplate](https://github.com/antlr/stringtemplate4/blob/master/doc/index.md)
 14. [Modern Compiler Implementation](https://shubhsblog.com/downloads/data/books/%5BCS%5D%20Modern%20Compiler%20Implementation%20in%20Java,%202nd%20ed.(Andrew%20Appel_%20Cambrdige%20University%20Press)(2004).pdf)
+15. [Compiler Books](https://github.com/germanoa/compiladores/tree/master/doc/ebook)
