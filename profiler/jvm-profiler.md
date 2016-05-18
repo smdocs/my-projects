@@ -2,10 +2,10 @@
 
 ####Problem Statement
 
-- How do we profile a number of jvms that are all running in a distributed environment?   Moreover, storing and transferring the snapshot 
+1) How do we profile a number of jvms that are all running in a distributed environment?   Moreover, storing and transferring the snapshot 
 files produced by some profilerscan be problematic due to the large size of the snapshots and effectively collecting and analyzing these files.
 
-- I would also like to learn how to implement a java agent into a jvm that can collect information and send it out.
+2) I would also like to learn how to implement a java agent into a jvm that can collect information and send it out.
 
 
 ####Notes on JVM agent implementation
