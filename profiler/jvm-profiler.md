@@ -22,6 +22,6 @@ MXBeans that expose information about various components of the JVM, including m
 
 #### Questions
 1. What happens to the agent when the main jvm thread exits? 
-2. How to deal with jvm [safepoints](used the JVM’s management interface to actually obtain the profiling data. java.lang.management.ManagementFactory provides a number of MXBeans that expose information about various components of the JVM, including memory usage, the garbage collector, and running threads.)?
+2. How to deal with jvm [safepoints](http://psy-lob-saw.blogspot.com/2014/03/where-is-my-safepoint.html)?
 
 
