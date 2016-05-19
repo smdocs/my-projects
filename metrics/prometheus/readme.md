@@ -8,4 +8,4 @@
 
 
 Resources
-[Kamon](https://github.com/kamon-io/docker-grafana-graphite)
+- [Kamon](https://github.com/kamon-io/docker-grafana-graphite)
