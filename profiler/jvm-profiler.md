@@ -22,8 +22,15 @@ but other build tools have similar facilities. Need to know how this works in gr
 4) Use JVM’s management interface to actually obtain the profiling data.  java.lang.management.ManagementFactory provides a number of 
 MXBeans that expose information about various components of the JVM, including memory usage, the garbage collector, and running threads.  
 
+#### Features
+
+1) Profiler should profile heap and non-heap memory usage, garbage collection, and the aggregate time spent executing each function.
+
 #### Questions
 1. What happens to the agent when the main jvm thread exits? 
+
+If the profiler runs as a non deamon thread then when the main thread of the jvm exits, it will still keep the jvm alive. This is not the ideal behaviour of a profiler. 
+
 2. How to deal with jvm [safepoints](http://psy-lob-saw.blogspot.com/2014/03/where-is-my-safepoint.html)?
 
 [Code as creaft](https://codeascraft.com/2015/01/14/introducing-statsd-jvm-profiler-a-jvm-profiler-for-hadoop/)
