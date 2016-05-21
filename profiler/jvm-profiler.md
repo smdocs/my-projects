@@ -35,4 +35,13 @@ If the profiler runs as a non deamon thread then when the main thread of the jvm
 
 [Code as creaft](https://codeascraft.com/2015/01/14/introducing-statsd-jvm-profiler-a-jvm-profiler-for-hadoop/)
 
+```java
+
+public abstract class Profiler {
+
+   public void profile();
+}
+}
+```
+
 
