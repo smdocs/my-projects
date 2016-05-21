@@ -39,9 +39,16 @@ If the profiler runs as a non deamon thread then when the main thread of the jvm
 
 public abstract class Profiler {
 
+   /** Start profiling the target jvm. */
    public void profile();
+   
+   /** Start reporting metrics.*/
+   public void report();
+   
+   /** Start recording metrics */
+   public void record();
 }
-}
+
 ```
 
 
