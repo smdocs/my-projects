@@ -26,6 +26,6 @@ MXBeans that expose information about various components of the JVM, including m
 1. What happens to the agent when the main jvm thread exits? 
 2. How to deal with jvm [safepoints](http://psy-lob-saw.blogspot.com/2014/03/where-is-my-safepoint.html)?
 
-[](https://codeascraft.com/2015/01/14/introducing-statsd-jvm-profiler-a-jvm-profiler-for-hadoop/)
+[Code as creaft](https://codeascraft.com/2015/01/14/introducing-statsd-jvm-profiler-a-jvm-profiler-for-hadoop/)
 
 
