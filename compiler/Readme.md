@@ -19,3 +19,4 @@
 15. [Compiler Books](https://github.com/germanoa/compiladores/tree/master/doc/ebook)
 16. [MIT Openware - Compilers](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-sma-5502-fall-2005/index.htm)
 17. [Stanford Compilers Course](https://www.coursera.org/course/compilers)
+18. [DIY Make your own programming language](http://blog.ppelgren.se/2015-01-03/DIY-Make-Your-Own-Programming-language/)
