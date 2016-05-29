@@ -14,7 +14,7 @@ files produced by some profilerscan be problematic due to the large size of the 
 
 2) The agent class should be packaged in a JAR whose manifest specifies the Premain-Class attribute
 ```shell
-  Premain-Class: com.etsy.agent.ExampleAgent
+  Premain-Class: com.sm.agent.ExampleAgent
 ```
 3) Use Maven to build the agent, in order to use maven-shade-plugin’s ManifestResourceTransformer to set this property, 
 but other build tools have similar facilities. Need to know how this works in gradle?
