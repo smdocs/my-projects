@@ -5,3 +5,4 @@
 1. [Laptop script from Thoughtbot](https://github.com/thoughtbot/laptop)
 2. [Texane LFS](https://github.com/texane/lfs)
 3. [Automated LFS](https://github.com/RushangKaria/Automated_Linux_From_Scratch)
+4. [Tiny Core Linux](http://tinycorelinux.net/)
