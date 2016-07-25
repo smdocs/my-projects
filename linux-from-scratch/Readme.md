@@ -9,3 +9,4 @@
 
 #Linux Threads
 1. [Pure Linux Threads](https://github.com/skeeto/pure-linux-threads-demo)
+2. [Stanford C Resources](http://cslibrary.stanford.edu/#lists)
