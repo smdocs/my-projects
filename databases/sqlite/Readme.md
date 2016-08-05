@@ -14,7 +14,7 @@
 
 <b>vdbe.c</b> - This file implements the virtual machine that runs prepared statements. There are various helper files whose names begin with "vdbe". The VDBE has access to the vdbeInt.h header file which defines internal data objects. The rest of SQLite interacts with the VDBE through an interface defined by vdbe.h.
 
-<b>where.c</b. - This file analyzes the WHERE clause and generates virtual machine code to run queries efficiently. This file is sometimes called the "query optimizer". It has its own private header file, whereInt.h, that defines data objects used internally.
+<b>where.c</b>. - This file analyzes the WHERE clause and generates virtual machine code to run queries efficiently. This file is sometimes called the "query optimizer". It has its own private header file, whereInt.h, that defines data objects used internally.
 
 <b>btree.c </b>- This file contains the implementation of the B-Tree storage engine used by SQLite.
 
