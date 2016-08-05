@@ -2,7 +2,7 @@
 
 #### 1. The Architecture Of SQLite
 
-![](http://www.sqlite.org/images/arch2.gif)
+![](http://soft-dev.org/pubs/html/bolz_kurilova_tratt__making_an_embedded_dbms_jit_friendly/sqlite-architecture.png)
 
 SQLite is modular in design. See the [architectural description](http://www.sqlite.org/arch.html) for details. Other documents that are useful in (helping to understand how SQLite works include the [file format description](http://www.sqlite.org/fileformat2.html), the [virtual machine](http://www.sqlite.org/opcode.html) that runs prepared statements, the description of [how transactions work](http://www.sqlite.org/atomiccommit.html), and the [overview of the query planner](http://www.sqlite.org/optoverview.html).
 
