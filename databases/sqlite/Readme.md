@@ -64,7 +64,11 @@ SQLite Commands - dot commands do not need a ; for termination. Some useful .com
  ```
   $ .help / .schemas / .show / .open /.stats on|off 
   ```
-  
+
+#### 4.  SQL Support
+
+- Compound SQL Select Statements 
+![](https://www.safaribooksonline.com/library/view/using-sqlite/9781449394592/httpatomoreillycomsourceoreillyimages661794.png)
   
 [](http://soft-dev.org/pubs/html/bolz_kurilova_tratt__making_an_embedded_dbms_jit_friendly/)
 
