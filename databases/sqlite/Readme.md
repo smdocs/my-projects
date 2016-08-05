@@ -19,7 +19,7 @@
 
 - Unique Features 
     - Another useful feature is the ability to manipulate more than one database at a time. SQLite allows a single database connection to associate itself with multiple database files simultaneously. 
-    - The most notable difference is that SQLite uses a dynamic-type system for tables. The SQLite engine will allow you to put any value into nearly any column,regardless of type. 
+    - The most notable difference is that SQLite uses a dynamic-type system for tables. The SQLite engine will allow you to put any value into nearly any column,regardless of type. This is a major departure from traditional database systems, which tend to be statically typed.
 
 <b>Not suitable for</b> 
  - High Transaction Rates
