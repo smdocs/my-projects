@@ -72,17 +72,17 @@ SQLite Commands - dot commands do not need a ; for termination. Some useful .com
 
 - Alternate JOIN Statements
 There are 2 types of join statements
-    1. Explicit JOIN statement
+        1. Explicit JOIN statement
 ```
  SELECT ...    
  FROM employee JOIN resource ON ( employee.eid = resource.eid )    
- WHERE ...
+ WHERE 
 ```
-    2. Implicit JOIN Statement
+        2. Implicit JOIN Statement
 ```
 SELECT ...   
 FROM employee, resource   
-WHERE employee.eid = resource.eid AND ...
+WHERE employee.eid = resource.eid AND 
 ```
 There is no performance difference between the two  notations: it is purely a matter of syntax. In general, the explicit notion (the first one) has become the standard way of doing things.
 
