@@ -21,3 +21,5 @@
 <b>pager.c</b> - This file contains the "pager" implementation, the module that implements transactions.
 
 <b>os_unix.c and os_win.c </b>- These two files implement the interface between SQLite and the underlying operating system using the run-time pluggable VFS interface.
+
+All of the individual C source code and header files (both manually-edited and automatically-generated) can be combined into a single big source file sqlite3.c called <b>"the amalgamation".</b>
