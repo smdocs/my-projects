@@ -60,3 +60,9 @@ All of the individual C source code and header files (both manually-edited and a
     $./configure  [...]
     $ make
 ```
+SQLite Commands - dot commands do not need a ; for termination. Some useful .commands are
+ ```
+  $ .help / .schemas / .show / .open /.stats on|off 
+  ```
+  
+
