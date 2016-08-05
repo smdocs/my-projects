@@ -17,6 +17,17 @@
 
 - Highly Reliable - The SQLite development team takes code testing and verification very seriously.
 
+- Unique Features 
+    - Another useful feature is the ability to manipulate more than one database at a time. SQLite allows a single database connection to associate itself with multiple database files simultaneously. 
+    - The most notable difference is that SQLite uses a dynamic-type system for tables. The SQLite engine will allow you to put any value into nearly any column,regardless of type. 
+
+<b>Not suitable for</b> 
+ - High Transaction Rates
+ - Extremely Large Data Sets 
+ - Replication - no support for replication
+ - Access Control - provides no access control, relies mainly on the host file system access control.
+ - Client/Server - it is designed to run as an embedded database or local but not accross the network. 
+
 #### 2. The Architecture Of SQLite
 
 ![](http://soft-dev.org/pubs/html/bolz_kurilova_tratt__making_an_embedded_dbms_jit_friendly/sqlite-architecture.png)
