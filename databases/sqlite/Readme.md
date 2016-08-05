@@ -53,7 +53,7 @@ SQLite is modular in design. See the [architectural description](http://www.sqli
 
 All of the individual C source code and header files (both manually-edited and automatically-generated) can be combined into a single big source file sqlite3.c called <b>"the amalgamation".</b>
 
-3. Building the source
+#### 3. Building the source
 ```bash
     $ tar xzf sqlite-amalgamation-3.x.x.tar.gz
     $ cd sqlite-3.x.x$ 
