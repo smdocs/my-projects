@@ -1,6 +1,21 @@
 #SQLite Notes
 
-#### 1. The Architecture Of SQLite
+#### 1. Main Features
+- Serverless - SQLite does not require a separate server process or system to operate. The SQLite library accesses its storage files directly.
+
+- Zero Configuration - No server means no setup. Creating an SQLite database instance is as easy as opening file.
+
+- Cross-Platform - The entire database instance resides in a single cross-platform file, requiring no  administration.
+
+- Self-ContainedA single library contains the entire database system, which integrates directly into a host                   application.
+
+- Small Runtime Footprint - The default build is less than a megabyte of code and requires only a few megabytes of memory. With some adjustments, both the library size and memory use can be significantly reduced.
+
+- Transactional - SQLite transactions are fully ACID-compliant, allowing safe access from multiple processes or                   threads.Full-FeaturedSQLite supports most of the query language features found in the SQL92 (SQL2) standard.
+
+- Highly Reliable - The SQLite development team takes code testing and verification very seriously.
+
+#### 2. The Architecture Of SQLite
 
 ![](http://soft-dev.org/pubs/html/bolz_kurilova_tratt__making_an_embedded_dbms_jit_friendly/sqlite-architecture.png)
 
