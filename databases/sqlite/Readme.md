@@ -52,3 +52,11 @@ SQLite is modular in design. See the [architectural description](http://www.sqli
 <b>os_unix.c and os_win.c </b>- These two files implement the interface between SQLite and the underlying operating system using the run-time pluggable VFS interface.
 
 All of the individual C source code and header files (both manually-edited and automatically-generated) can be combined into a single big source file sqlite3.c called <b>"the amalgamation".</b>
+
+3. Building the source
+```bash
+    $ tar xzf sqlite-amalgamation-3.x.x.tar.gz
+    $ cd sqlite-3.x.x$ 
+    $./configure  [...]
+    $ make
+```
