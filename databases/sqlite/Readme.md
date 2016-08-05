@@ -87,5 +87,5 @@ WHERE employee.eid = resource.eid AND
 There is no performance difference between the two  notations: it is purely a matter of syntax. In general, the explicit notion (the first one) has become the standard way of doing things.
 
 [](http://soft-dev.org/pubs/html/bolz_kurilova_tratt__making_an_embedded_dbms_jit_friendly/)
-
+[](http://sqljet.com/)
 
