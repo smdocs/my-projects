@@ -65,4 +65,6 @@ SQLite Commands - dot commands do not need a ; for termination. Some useful .com
   $ .help / .schemas / .show / .open /.stats on|off 
   ```
   
+  
+[](http://soft-dev.org/pubs/html/bolz_kurilova_tratt__making_an_embedded_dbms_jit_friendly/)
 
