@@ -69,6 +69,23 @@ SQLite Commands - dot commands do not need a ; for termination. Some useful .com
 
 - Compound SQL Select Statements 
 ![](https://www.safaribooksonline.com/library/view/using-sqlite/9781449394592/httpatomoreillycomsourceoreillyimages661794.png)
-  
+
+- Alternate JOIN Statements
+There are 2 types of join statements
+    1. Explicit JOIN statement
+```
+ SELECT ...    
+ FROM employee JOIN resource ON ( employee.eid = resource.eid )    
+ WHERE ...
+```
+    2. Implicit JOIN Statement
+```
+SELECT ...   
+FROM employee, resource   
+WHERE employee.eid = resource.eid AND ...
+```
+There is no performance difference between the two  notations: it is purely a matter of syntax. In general, the explicit notion (the first one) has become the standard way of doing things.
+
 [](http://soft-dev.org/pubs/html/bolz_kurilova_tratt__making_an_embedded_dbms_jit_friendly/)
+
 
