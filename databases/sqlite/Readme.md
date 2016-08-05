@@ -1,7 +1,9 @@
 #SQLite Notes
 
 #### 1. Main Features
-- Serverless - SQLite does not require a separate server process or system to operate. The SQLite library accesses its storage files directly.
+- Serverless - SQLite does not require a separate server process or system to operate. The SQLite library accesses its storage files directly. Multiple client application processes can access the same SQLite file.
+
+![](https://www.safaribooksonline.com/library/view/using-sqlite/9781449394592/httpatomoreillycomsourceoreillyimages661572.png)
 
 - Zero Configuration - No server means no setup. Creating an SQLite database instance is as easy as opening file.
 
