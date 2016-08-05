@@ -4,8 +4,9 @@
 
 ![](http://www.sqlite.org/images/arch2.gif)
 
-#####Key files:
+SQLite is modular in design. See the [architectural description](http://www.sqlite.org/arch.html) for details. Other documents that are useful in (helping to understand how SQLite works include the [file format description](http://www.sqlite.org/fileformat2.html), the [virtual machine](http://www.sqlite.org/opcode.html) that runs prepared statements, the description of [how transactions work](http://www.sqlite.org/atomiccommit.html), and the [overview of the query planner](http://www.sqlite.org/optoverview.html).
 
+#####Key files:
 <b> sqlite3.h </b>- This file defines the public interface to the SQLite library. Readers will need to be familiar with this interface before trying to understand how the library works internally.
 
 <b>sqliteInt.h</b> - this header file defines many of the data objects used internally by SQLite.
