@@ -8,3 +8,4 @@
 7. [Sparrow OS](https://github.com/michael2012z/Sparrow)
 8. [OS Middleware](https://github.com/Max-Hailperin/Operating-Systems-and-Middleware--Supporting-Controlled-Interaction/tree/master/web-site)
 9. [NewOS](https://github.com/travisg/newos)
+10. [OS](https://github.com/muchas/OperatingSystems)
