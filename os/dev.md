@@ -7,3 +7,4 @@
 6. [Getting started in the Linux Kernel](http://www.labbott.name/blog/2016/08/15/ideas-for-getting-started-in-the-linux-kernel/)
 7. [Sparrow OS](https://github.com/michael2012z/Sparrow)
 8. [OS Middleware](https://github.com/Max-Hailperin/Operating-Systems-and-Middleware--Supporting-Controlled-Interaction/tree/master/web-site)
+9. [NewOS](https://github.com/travisg/newos)
