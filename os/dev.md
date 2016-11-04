@@ -9,3 +9,4 @@
 8. [OS Middleware](https://github.com/Max-Hailperin/Operating-Systems-and-Middleware--Supporting-Controlled-Interaction/tree/master/web-site)
 9. [NewOS](https://github.com/travisg/newos)
 10. [OS](https://github.com/muchas/OperatingSystems)
+11. [OS Lectures](https://www.ops-class.org/slides/)
